@@ -46,6 +46,7 @@
 
 .search-box {
     display: flex;
+    align-items: center;
     width: 580px;
     height: 42px;
     border: 1px solid lightgray;
@@ -53,9 +54,13 @@
 }
 
 .search {
+    margin-left: 10px;
     outline: none;
-    width: 80%;
-    font-size: 14px;
+    height: 26px;
+    width: 91%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    border: 0px solid transparent;
 }
 
 nav {

@@ -63,13 +63,6 @@
     border: 0px solid transparent;
 }
 
-nav {
-    display: flex;
-    height: 40px;
-    justify-content: center;
-    align-items: center;
-}
-
 .icon {
     margin-left: 10px;
     display: flex;

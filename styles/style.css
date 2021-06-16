@@ -45,10 +45,17 @@
 }
 
 .search-box {
+    display: flex;
     width: 580px;
     height: 42px;
     border: 1px solid lightgray;
     border-radius: 50px;
+}
+
+.search {
+    outline: none;
+    width: 80%;
+    font-size: 14px;
 }
 
 nav {
@@ -58,10 +65,12 @@ nav {
     align-items: center;
 }
 
-
+.icon {
+    margin-left: 10px;
+    display: flex;
+    align-self: center;
+}
 
 input{
     border: 0px solid transparent;
-    width: 80%;
 }
-

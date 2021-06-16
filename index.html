@@ -4,9 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+    <!-- css stylesheets-->
     <link href="styles/reset.css" rel="stylesheet">
     <link href="styles/style.css" rel="stylesheet">
+
     <title>Google</title>
+
+    <style>
+        .material-icons.md-18 { font-size: 21px; }
+        .material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+    </style>
 </head>
 
 <body>
@@ -24,8 +37,8 @@
             <img id="logo" src="images/googleLogo.png"><br>
             <div class="search-panel">
                 <div class="search-box">
-                    <img id="magnify" src="images/search.png">
-                    <input type="text">
+                    <span class="material-icons md-18 md-dark md-inactive icon">search</span>
+                    <input type="text" class="search">
                 </div>
                 <div class="buttons">
                     <input type="submit" value="Google Search" class="button" id="search">

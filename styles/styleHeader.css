@@ -6,18 +6,32 @@ nav {
 
 .navigation {
     display: flex;
-    
-
+    justify-content: space-between;
+    margin: 0px 15px;
 }
 
 .navLink {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
     color: black;
     text-decoration: none;
-    margin: 0px 15px;
+    padding-right: 10px;
 }
 
 .navLink:hover {
     text-decoration: underline;
+}
+
+#navLeft {
+    margin-left: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+#navRight {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+#profile {
+    border-radius: 50%;
+    margin-top: -10px;
 }

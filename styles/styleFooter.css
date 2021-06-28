@@ -7,10 +7,24 @@
     margin-top: 355px;
 }
 
-#coutry {
-    padding: 200px;
+.coutry {
+    padding: 16px 30px;
+    color: #6F6F6F;
+    font-size: 15px;
 }
 
-#info {
+.info {
+    display: flex;
+}
+
+.footRight {
+    display: flex;
+}
+
+.footCenter{
+    display: flex;
+}
+
+.footLeft {
     display: flex;
 }

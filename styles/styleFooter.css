@@ -3,18 +3,23 @@
     flex-direction: column;
     background-color: #F2F2F2;
     font-family: Arial, Helvetica, sans-serif;
-    height: 95px;
+    color: #6F6F6F;
+    font-size: 15px;
+    height: 96px;
     margin-top: 355px;
 }
 
 .coutry {
+    margin-bottom: -1px;
     padding: 16px 30px;
-    color: #6F6F6F;
-    font-size: 15px;
+    border-bottom: 1px solid #dadce0;
 }
 
 .info {
     display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    padding: 18px 35px 16px 35px;
 }
 
 .footRight {
@@ -27,4 +32,39 @@
 
 .footLeft {
     display: flex;
+}
+
+#Adv {
+    padding-right: 15px;
+}
+
+#Bus {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#How {
+    padding-left: 15px;
+}
+
+#leaf {
+    height: 13.5px;
+    padding-right: 6px;
+}
+
+#Car {
+    padding-right: 106px;
+}
+
+#Pri {
+    padding-right: 15px;
+}
+
+#Ter {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+#Set {
+    padding-left: 15px;
 }
